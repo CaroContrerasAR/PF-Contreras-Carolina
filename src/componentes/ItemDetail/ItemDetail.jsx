@@ -1,8 +1,8 @@
 //import ItemCount from '../ItemCount/ItemCount'
-
+import './ItemDetail.css'
 
 //despues se agrega stock como props
-const ItemDetail = ({id, nombre, precio, img}) => {
+const ItemDetail = ({id, nombre, precio, img, art, detalle}) => {
   
     // const [agregarCantidad,setAgregarCantidad]= useState(0);
 
@@ -12,12 +12,14 @@ const ItemDetail = ({id, nombre, precio, img}) => {
     // }
 
     return (
-        <div>
-            <h2>Nombre: {nombre} </h2>
-            <h3>Precio: {precio} </h3>
-            <h3>ID: {id}</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, officia ea ullam et, beatae itaque facere alias neque dolorum tempore consequuntur cupiditate dolorem nulla. Est earum officia nam placeat ducimus!</p>
+        <div className="main-container">
             <img src={img} alt={nombre} />
+            <div className="detail">
+                <h1> {nombre} </h1>
+                <h4>Art.: {art}</h4>
+                <p>{detalle}</p>
+                <h3><strong>Precio: ${precio}</strong> </h3>
+            </div>
         </div>
     )
 }

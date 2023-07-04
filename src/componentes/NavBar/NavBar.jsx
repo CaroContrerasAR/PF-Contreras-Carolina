@@ -11,7 +11,7 @@ const NavBar = () => {
         <nav>
             <ul>
                 <li>
-                  <NavLink to="/categoria/2"> Hombre </NavLink>
+                  <NavLink to="/categoria/2" > Hombre </NavLink>
                 </li>
 
                 <li>
@@ -19,19 +19,19 @@ const NavBar = () => {
                 </li>
                 
                 <li>
-                  Cual es mi Talle?
+                <NavLink to="/"> Cual es mi Talle? </NavLink>
                 </li>
                 
                 <li>
-                  Como Comprar?
+                <NavLink to="/"> Como Comprar? </NavLink>
                 </li>
                 
                 <li>
-                  Institucional
+                <NavLink to="/"> Institucional </NavLink>
                 </li>
                 
                 <li>
-                  Contacto
+                  <NavLink to="/"> Contacto </NavLink>
                 </li>
             </ul>
         </nav>
