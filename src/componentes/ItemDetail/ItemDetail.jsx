@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import {CarritoContext} from "../../context/CarritoContext";
 import { useContext } from 'react';
 
-const ItemDetail = ({id, nombre, precio, img, art, detalle, stock}) => {
+const ItemDetail = ({id, nombre, precio, img, detalle, stock}) => {
     const [agregarCantidad,setAgregarCantidad] =  useState(0);
 
     //useContext
@@ -29,7 +29,7 @@ const ItemDetail = ({id, nombre, precio, img, art, detalle, stock}) => {
             <img src={img} alt={nombre} />
             <div className="detail">
                 <h1> {nombre} </h1>
-                <h4>id:{id} - Art.: {art}</h4>
+                <h4>ID: {id} </h4>
                 <p>{detalle}</p>
                 <h3><strong>Precio: ${precio}</strong> </h3>
                 {
