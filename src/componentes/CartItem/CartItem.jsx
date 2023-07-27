@@ -4,7 +4,7 @@ import { CarritoContext } from "../../context/CarritoContext";
 const CartItem = ( {item, cantidad}) => {
     const {eliminarProducto} = useContext(CarritoContext);
   return (
-    <div>
+    <div key={item.id}>
       {/* se puede poner foto mini */}
       <h4> {item.nombre}</h4>
       <p>Cantidad: {cantidad}</p>

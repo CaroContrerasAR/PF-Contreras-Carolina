@@ -6,7 +6,7 @@ import {useParams} from "react-router-dom";
 //importamos nuevas funciones:
 import { collection, getDocs, where, query } from 'firebase/firestore';
 
-//collection la voy a usar para vincular una collecion de firestore
+//collection la voy a usar para vincular una collecion de firestore (collection: "productos")
 //getDocs me trae todos los documentos de una collecion
 //query la voy a usar para hacer consultas a la BD
 //where para usar filtros en las consultas

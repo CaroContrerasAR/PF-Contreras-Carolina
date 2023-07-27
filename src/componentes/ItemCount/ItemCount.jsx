@@ -23,6 +23,7 @@ const ItemCount = ({inicial, stock, funcionAgregar}) => {
             <button onClick={incrementar}> + </button>
           </div>
           <button onClick={()=>funcionAgregar(contador) }> Agregar al Carrito </button>
+          <p>Disponible : {stock}</p>
         </>
     )
 }

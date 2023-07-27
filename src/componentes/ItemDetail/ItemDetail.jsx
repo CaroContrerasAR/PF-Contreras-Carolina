@@ -37,7 +37,12 @@ const ItemDetail = ({id, nombre, precio, img, detalle, stock}) => {
 
                 }
                 {
-                    agregarCantidad > 0 ? (<Link to="/cart"> Terminar Compra </Link>) : (<ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
+                    agregarCantidad > 0 
+                    ? (<>
+                        <Link to="/" >Seguir Comprando</Link><br />
+                        <Link to="/cart">Terminar Compra</Link>    
+                        </>) 
+                    : (<ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
                 }
             </div>
         </div>

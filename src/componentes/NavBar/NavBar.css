@@ -5,7 +5,6 @@ header{
     border-bottom: 1px solid black;
     width: 100vw;    
 }
-
 li {
     display:inline-block;
     margin: 1rem;
@@ -15,4 +14,7 @@ li {
 li :hover{
     text-decoration: underline;
     font-weight:bold ;
+}
+.imgLogo{
+    height: 80px;
 }
