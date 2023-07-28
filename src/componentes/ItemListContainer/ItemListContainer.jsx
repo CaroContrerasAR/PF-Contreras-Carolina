@@ -1,4 +1,4 @@
-import {useState, useEffect} from "react";
+import React, {useState, useEffect} from "react";
 // import { getProductos, getProductosPorCategoria } from "../../asyncmock";
 import ItemList from "../ItemList/ItemList";
 import {useParams} from "react-router-dom";
@@ -12,7 +12,7 @@ import { collection, getDocs, where, query } from 'firebase/firestore';
 //where para usar filtros en las consultas
 
 import { db } from "../../services/config";
-
+import "./ItemListContainer.css"
 
 const ItemListContainer = (props) => {
   const [productos, setProductos] = useState([]);
