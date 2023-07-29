@@ -18,7 +18,7 @@ const NavBar = () => {
                   <NavLink to="/categoria/mujer"> Mujer </NavLink>
                 </li>
                 
-                <li>
+                {/* <li>
                 <NavLink to="/"> Cual es mi Talle? </NavLink>
                 </li>
                 
@@ -32,7 +32,7 @@ const NavBar = () => {
                 
                 <li>
                   <NavLink to="/"> Contacto </NavLink>
-                </li>
+                </li> */}
             </ul>
         </nav>
 

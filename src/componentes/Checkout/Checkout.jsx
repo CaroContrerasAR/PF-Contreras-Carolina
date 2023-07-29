@@ -90,7 +90,6 @@ const Checkout = () => {
                     <div key={producto.item.id}>
                         <p> {producto.item.nombre} x {producto.cantidad} unidades </p>
                         <p> Precio por Unidad {producto.item.precio}</p>
-                        <img src={producto.item.img} alt={producto.item.nombre} />
                         <hr />
                     </div>
                 ))

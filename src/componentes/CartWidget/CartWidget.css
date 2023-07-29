@@ -1,3 +1,17 @@
+div {
+    position: relative;
+    display: inline-block;
+}
+  
 .imgCarrito {
-    width: 2rem;
+    width: 40px;
+    height: 40px;
+}
+    
+strong {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 70%;
+    font-size: 14px;
 }

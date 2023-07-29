@@ -1,0 +1,12 @@
+.contador{
+    display: flex;
+    align-items: center;
+}
+
+.contador button{
+    margin-right: 10px;
+}
+
+.contador p{
+    margin-right: 10px;
+}

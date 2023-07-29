@@ -7,7 +7,7 @@ header{
 }
 li {
     display:inline-block;
-    margin: 1rem;
+    margin: .5rem;
     cursor: pointer;
     text-decoration: none;
 }
@@ -16,5 +16,5 @@ li :hover{
     font-weight:bold ;
 }
 .imgLogo{
-    height: 80px;
+    height: 60px;
 }
