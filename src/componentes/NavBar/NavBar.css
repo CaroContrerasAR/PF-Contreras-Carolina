@@ -3,17 +3,24 @@ header{
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid black;
-    width: 100vw;    
+    width: 100%;
+    background-image: url("../../../public/img/tira01.jpg");
+    background-position: 100vw;
 }
 li {
     display:inline-block;
     margin: .5rem;
     cursor: pointer;
+    background-color: aliceblue;
+    /* color: darkblue; */
+    border-radius: 20%;
+    padding: .5rem;
     text-decoration: none;
 }
 li :hover{
     text-decoration: underline;
     font-weight:bold ;
+    color: darkblue;
 }
 .imgLogo{
     height: 60px;

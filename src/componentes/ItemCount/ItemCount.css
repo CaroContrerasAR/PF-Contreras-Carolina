@@ -1,12 +1,9 @@
 .contador{
-    display: flex;
-    align-items: center;
+    white-space: nowrap;
+    padding: 10px;
 }
 
-.contador button{
-    margin-right: 10px;
-}
-
-.contador p{
+.contador button, p{
+    display: inline-block;
     margin-right: 10px;
 }
