@@ -2,6 +2,7 @@ import {useState, useContext} from 'react';
 import { CarritoContext } from '../../context/CarritoContext';
 import { db } from '../../services/config';
 import { collection, addDoc, updateDoc, doc, getDoc } from 'firebase/firestore';
+import "./Checkout.css";
 
 const Checkout = () => {
         const [nombre, setNombre] = useState("");
@@ -94,10 +95,11 @@ const Checkout = () => {
                     </div>
                 ))
             }
+            <br />
             <p>Cantidad de Prendas en el Carrito: {cantidadTotal}</p>
             <h2>Total Compra: $ {total}</h2>
             <hr />
-
+            <br />
             <div className="form-group">
                 <label htmlFor=""> Nombre </label>
                 <input type="text" value={nombre} onChange={(e) => setNombre(e.target.value)} />

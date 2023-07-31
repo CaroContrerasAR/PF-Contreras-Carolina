@@ -1,0 +1,12 @@
+div{
+    display: block;
+}
+.form-group{
+    display: block;
+    flex-wrap:initial;
+    align-items: center;
+    color: black;
+}
+input{
+    background-color: aliceblue;
+}
