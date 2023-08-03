@@ -36,6 +36,7 @@ Las siguientes dependencias son necesarias para ejecutar este proyecto:
 - react: ^18.2.0
 - react-dom: ^18.2.0
 - react-router-dom: ^6.14.1
+
 Estas dependencias se instalaron automáticamente cuando ejecutó npm install siguiendo los pasos de instalación.
 
 ## Configuración de Firebase
