@@ -1,7 +1,7 @@
 # Tienda Express
 ¡Bienvenido al proyecto de Ecommerce de Ropa de Hombre y Mujer!
 
-## Descricion
+## Descripcion
 Este proyecto es un sitio web de comercio electrónico dedicado a la venta de ropa para hombres y mujeres. La plataforma está construida utilizando tecnologías web modernas como React y Firebase para proporcionar una experiencia de usuario fluida y segura.
 
 ## Tecnologías utilizadas
@@ -31,11 +31,11 @@ Para comenzar con el proyecto, asegúrese de tener Node.js y npm (Node Package M
 ## Dependencias
 Las siguientes dependencias son necesarias para ejecutar este proyecto:
 
-dotenv: ^16.3.1
-firebase: ^10.1.0
-react: ^18.2.0
-react-dom: ^18.2.0
-react-router-dom: ^6.14.1
+- dotenv: ^16.3.1
+- firebase: ^10.1.0
+- react: ^18.2.0
+- react-dom: ^18.2.0
+- react-router-dom: ^6.14.1
 Estas dependencias se instalaron automáticamente cuando ejecutó npm install siguiendo los pasos de instalación.
 
 ## Configuración de Firebase
